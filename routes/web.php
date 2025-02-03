@@ -11,14 +11,14 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('/BrandList',[BrandController::class,'BrandList']);
-Route::get('/CategoryList',[CategoryController::class,'CategoryList']);
-Route::get('/PolicyByType/{type}',[PolicyController::class,'PolicyByType']);
-Route::get('/ListProductByCategory/{id}', [ProductController::class,'ListProductByCategory']);
-Route::get('/ListProductByRemark/{remark}', [ProductController::class,'ListProductByRemark']);
-Route::get('/ListProductByBrand/{id}', [ProductController::class,'ListProductByBrand']);
-Route::get('/ListProductBySlider', [ProductController::class,'ListProductBySlider']);
-Route::get('/ProductDetailsById/{id}', [ProductController::class,'ProductDetailsById']);
+// Route::get('/BrandList',[BrandController::class,'BrandList']);
+// Route::get('/CategoryList',[CategoryController::class,'CategoryList']);
+// Route::get('/PolicyByType/{type}',[PolicyController::class,'PolicyByType']);
+// Route::get('/ListProductByCategory/{id}', [ProductController::class,'ListProductByCategory']);
+// Route::get('/ListProductByRemark/{remark}', [ProductController::class,'ListProductByRemark']);
+// Route::get('/ListProductByBrand/{id}', [ProductController::class,'ListProductByBrand']);
+// Route::get('/ListProductBySlider', [ProductController::class,'ListProductBySlider']);
+// Route::get('/ProductDetailsById/{id}', [ProductController::class,'ProductDetailsById']);
 
 
 
@@ -54,7 +54,7 @@ Route::get('/ProductDetailsById/{id}', [ProductController::class,'ProductDetails
 
 
 
-Route::get('/ClearAppCache',[MaintenanceController::class,'ClearAppCache']);
+// Route::get('/ClearAppCache',[MaintenanceController::class,'ClearAppCache']);
 
 
 
